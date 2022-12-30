@@ -178,27 +178,34 @@ html 내부 북마크 등에 사용
 서버에 전송하는 정보는 아님
 
 
+웹브라우저 요청흐름
+요청흐름)
+https://www.google.com/search?q=hello&hl=ko 검색 -> DNS 조회(www.google.com) -> https(443) 포트생략
+ -> http 요청 메세지 전달(GET /search?q=hello&hl=ko HTTP/1.1 Host: www.google.com)
 
+HTTP 메세지 전송)
+웹 브라우저가 HTTP 메세지 생성 -> 소켓 라이브러리를 통해 전달(TCP/IP 연결, HTTP 메세지 포함)
+-> TCP/IP 패킷 생성, HTTP 메세지 포함 -> LAN 카드 -> 인터넷 -> 서버
 
+패킷생성)
+출발지IP, PORT,
+목적지IP, PORT,
+http 요청 메세지(
+    GET /search?q=hello&hl=ko 
+    HTTP/1.1 
+        Host: www.google.com
+)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+전처리)
+http 응답 메세지(
+    HTTP/1.1 200 OK
+    Content-Type: text/html;charset=UTF-8
+    Content-Length: 3423
+    <html>
+    <body>...</body>
+    </html>
+),
+웹 브라우저 HTML 렌더링
 
 
 
