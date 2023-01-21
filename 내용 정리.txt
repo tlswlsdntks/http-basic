@@ -1,6 +1,4 @@
 
-
-
 웹브라우저 요청흐름
 요청흐름)
 https://www.google.com/search?q=hello&hl=ko 검색 -> DNS 조회(www.google.com) -> https(443) 포트생략
