@@ -1,9 +1,4 @@
-|
-fragment)
-https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.introducing-spring-boot
--> #getting-started.introducing-spring-boot
-html 내부 북마크 등에 사용
-서버에 전송하는 정보는 아님
+
 
 
 웹브라우저 요청흐름

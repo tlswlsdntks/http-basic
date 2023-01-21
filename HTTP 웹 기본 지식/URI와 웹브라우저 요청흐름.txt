@@ -55,9 +55,16 @@ query)
 -> ?q=hello&hl=ko
 : key = value 형태
   ?로 시작, &로 추가 가능(?keyA=valueA&keyB=valueB)
-  query parameter, query string으로 불림
+  query parameter, query string 등으로 불림
   웹 서버에 제공하는 파라미터
   문자형태로 전송 (숫자 역시 문자로 전송)
+
+|
+fragment)
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.introducing-spring-boot
+-> #getting-started.introducing-spring-boot
+: html 내부 북마크 등에 사용
+  서버에 전송하는 정보는 아니다
 
 
 
