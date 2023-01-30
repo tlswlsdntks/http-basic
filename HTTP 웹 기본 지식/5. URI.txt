@@ -65,10 +65,3 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.h
 -> #getting-started.introducing-spring-boot
 : html 내부 북마크 등에 사용
   서버에 전송하는 정보는 아니다
-
-
-
-
-
-
-
