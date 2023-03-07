@@ -105,5 +105,8 @@ Host: localhost:8080                    >         "userName" : "jw      > 삭제
 : 리소스 제거
 
 
-
+HTTP 메소드의 속성)
+: 안전(Safe Methods)
+  멱등(Idempotent Methods)
+  캐시가능(Cacheable Methods)
 
