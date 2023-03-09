@@ -29,6 +29,10 @@
   3. HTML FORM은 GET 전송도 가능
   4. Content-Type: multipart/form-data
   : 파일 업로드 같은 바이너리 데이터 전송 시, 사용
+    boundary=----myboundary
+    파트간의 경계를 위한 구분자(바운더리)를 추가한다
+    모든 파트가 끝나면 구분자(바운더리) 뒤에 --를 추가해준다
+    boundary=----myboundary--
     다른 종류의 여러 파일과 폼의 내용을 함께 전송 가능(그래서 이름이 multipart)
   !참고: HTML FORM 태그 전송은 GET, POST만 지원
   
